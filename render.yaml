@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: skillbridge
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
